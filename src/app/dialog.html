@@ -1,0 +1,203 @@
+<mat-toolbar color="primary">
+  <mat-toolbar-row>
+    <span>Análsis</span>
+  </mat-toolbar-row>
+</mat-toolbar>
+
+<div mat-dialog-content>
+  <div class="row">
+    <div class="col-md-8">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col" colspan="2">Análisis</th>
+            <th scope="col">Prom/Dato</th>
+            <th scope="col">Máx</th>
+            <th scope="col">Mín</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Firmeza lb</td>
+            <td>
+              <button mat-stroked-button color="primary"><i class="material-icons">add_box</i></button>
+            </td>
+            <td>0</td>
+            <td>0</td>
+            <td>0</td>
+          </tr>
+          <tr>
+              <td>Almidón</td>
+              <td>
+                  <button mat-stroked-button color="primary"><i class="material-icons">add_box</i></button>
+                </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+          </tr>
+          <tr>
+              <td>Sólidos Sol. ºBrix</td>
+              <td>
+                  <button mat-stroked-button color="primary"><i class="material-icons">add_box</i></button>
+                </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+          </tr>
+          <tr>
+              <td>Color de Fondo % 6</td>
+              <td>
+                  <button mat-stroked-button color="primary"><i class="material-icons">add_box</i></button>
+                </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+          </tr>
+          <tr>
+              <td>Color de Fondo % 7</td>
+              <td>
+                  <button mat-stroked-button color="primary"><i class="material-icons">add_box</i></button>
+                </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+          </tr>
+          <tr>
+              <td>C. Acuoso % 3</td>
+              <td>
+                  <button mat-stroked-button color="primary"><i class="material-icons">add_box</i></button>
+                </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+          </tr>
+          <tr>
+              <td>C. Acuoso % 4</td>
+              <td>
+                  <button mat-stroked-button color="primary"><i class="material-icons">add_box</i></button>
+                </td>
+              <td>0</td>
+              <td>0</td>
+              <td>0</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <div class="col-md-4">
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">Prom</th>
+            <th></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">Máx</th>
+            <td></td>
+          </tr>
+          <tr>
+            <th scope="row">Mín</th>
+            <td></td>
+          </tr>
+        </tbody>
+      </table>
+      <!-- Tabla Dato -->
+      <hr>
+      <table class="table table-striped">
+        <thead>
+          <tr>
+            <th scope="col">#</th>
+            <th scope="col">Dato 0/10</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th scope="row">1</th>
+            <td>
+              <mat-form-field class="example-full-width">
+                <input matInput placeholder="Dato 1" value="">
+              </mat-form-field>
+            </td>
+          </tr>
+          <tr>
+            <th scope="row">2</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 2" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">3</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 3" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">4</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 4" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">5</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 5" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">6</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 6" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">7</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 7" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">8</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 8" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">9</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 9" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+          <tr>
+            <th scope="row">10</th>
+            <td>
+                <mat-form-field class="example-full-width">
+                  <input matInput placeholder="Dato 10" value="">
+                </mat-form-field>
+              </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
+</div>
+<div mat-dialog-actions >
+  <button mat-button (click)="onNoClick()">Cancelar</button>
+  <button [mat-dialog-close]="data.animal" cdkFocusInitial mat-raised-button color="primary">Guardar</button>
+</div>
